@@ -57,7 +57,7 @@ CREATE TABLE `users` (
   `gid` int(11) NOT NULL DEFAULT 1000,
   `homedir` varchar(255) NOT NULL,
   `shell` varchar(255) NOT NULL DEFAULT '/bin/false'
-) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Индексы сохранённых таблиц
